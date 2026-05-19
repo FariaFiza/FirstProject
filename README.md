@@ -15,7 +15,7 @@ A Django-based web application that helps users submit their buggy code and get 
 * 🏷️ Priority & status badges — Critical, High, Medium, Low
 * 🔍 Filter bugs by status, priority, and language
 * ⚡ Fast and clean light-themed UI
-* 
+  
 
 ## 🛠️ Built With
 
@@ -24,42 +24,6 @@ A Django-based web application that helps users submit their buggy code and get 
 * **Database:** SQLite
 * **Auth:** Django AbstractUser (custom roles)
 
-
-## 📁 Project Structure
-
-bugtracker/
-├── manage.py
-├── requirements.txt
-├── bugtracker/              # Project config
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── accounts/                # App 1 — User management
-│   ├── models.py            ← CustomUser (role: user / developer / admin)
-│   ├── views.py
-│   ├── forms.py
-│   ├── urls.py
-│   └── admin.py
-├── bugs/                    # App 2 — Bug tracking
-│   ├── models.py            ← BugReport, Comment, Feedback
-│   ├── views.py
-│   ├── forms.py
-│   ├── urls.py
-│   └── admin.py
-└── templates/
-    ├── base.html
-    ├── accounts/
-    │   ├── login.html
-    │   ├── register.html
-    │   ├── profile.html
-    │   └── developer_list.html
-    └── bugs/
-        ├── home.html
-        ├── bug_list.html
-        ├── bug_detail.html
-        ├── bug_form.html
-        ├── feedback_form.html
-        └── feedback_list.html
 
 ## 📦 Getting Started
 
